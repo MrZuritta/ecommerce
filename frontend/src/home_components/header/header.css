@@ -1,0 +1,61 @@
+header {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header #btns_header {
+  justify-content: end;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-left: 10%;
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-icons button {
+  background: none;
+  border: none;
+  margin-left: 10px;
+}
+
+header #btns_header {
+  margin-left: auto; 
+  display: flex;
+  gap: 10px;
+}
+
+header button {
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 100%;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+}
+
+.all_iphone {
+  display: flex;
+}

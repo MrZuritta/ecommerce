@@ -1,0 +1,48 @@
+.hero {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+
+  button {
+    margin-top: 35px;
+    border: 1px solid #d0d5dd;
+    border-radius: 30px;
+    width: 250px;
+    height: 55px;
+    font-weight: 700;
+    background: none;
+  }
+}
+
+.hero .all_iphone {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  .hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 100%;
+  }
+
+  .hero-images:nth-child(2),
+  .hero-images:nth-child(4) {
+    height: 50%;
+    margin-top: auto;
+  }
+
+  .hero-images:nth-child(1),
+  .hero-images:nth-child(5) {
+    height: 50%;
+    margin-top: auto;
+  }
+}
