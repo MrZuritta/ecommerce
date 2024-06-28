@@ -1,0 +1,38 @@
+.information {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.info-card {
+  max-width: 300px;
+}
+
+.info-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.info-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.info-card a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info-card a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+.ModelList {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  .modelo_unit_list {
+    img {
+      display: flex;
+      margin: auto;
+      height: 80%;
+    }
+  }
+}

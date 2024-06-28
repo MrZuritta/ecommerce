@@ -32,6 +32,11 @@ header nav ul li {
   gap: 20px;
 }
 
+header nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
 .nav-icons button {
   background: none;
   border: none;
@@ -39,7 +44,7 @@ header nav ul li {
 }
 
 header #btns_header {
-  margin-left: auto; 
+  margin-left: auto;
   display: flex;
   gap: 10px;
 }
